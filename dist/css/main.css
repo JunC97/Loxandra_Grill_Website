@@ -296,8 +296,10 @@ img {
   transform: scale(1.1);
 }
 
-.schedule #div_imp_info{
+.schedule .div_imp_info{
   margin: 0;
+    overflow: auto;
+    white-space: pre-wrap;
 }
 
 .comp_info_anfahrt .extra_info {
@@ -555,6 +557,12 @@ table td {
 }
 
 @media screen and (max-width: 825px) {
+
+    .schedule .div_imp_info{
+        width: 40%;
+        text-align: center;
+        margin: auto;
+    }
 
   .element {
     grid-template-columns: repeat(1, 1fr);
