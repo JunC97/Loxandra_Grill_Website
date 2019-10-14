@@ -187,7 +187,6 @@ img {
   display: none;
 }
 
-
 /* Section A */
 .section-a {
   position: relative;
@@ -507,6 +506,11 @@ table td {
   font-size: .9rem;
   white-space: nowrap;
   //border-bottom: black 1px dotted;
+}
+
+/* CLICKED */
+.clicked {
+  color: #d1111e;
 }
 
 @media screen and (max-width: 1290px) {

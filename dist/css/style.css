@@ -240,7 +240,7 @@ a.rm-button-open:hover {
 .rm-order {
     position: absolute;
     bottom: 5%;
-    left: 35%;
+    left: 40%;
     z-index: 1000;
     pointer-events: auto !important;
 }
