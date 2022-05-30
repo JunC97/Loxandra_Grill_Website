@@ -259,6 +259,13 @@ img {
   visibility: hidden;
 }
 
+.section-a #paypal-img {
+  margin: 0;
+  height: 60px;
+  width: 170px;
+  visibility: visible;
+}
+
 .comp_info_anfahrt {
   width: 50%;
   display: flex;
@@ -809,6 +816,12 @@ strong {
     height: 1px;
     width: 1px;
     visibility: hidden;
+  }
+  .section-a #paypal-img {
+    margin: 0;
+    height: 50px;
+    width: 150px;
+    visibility: visible;
   }
 }
 
